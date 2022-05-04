@@ -114,6 +114,37 @@ body{
 .right{
     width:50em;
     position:absolute;
-    left:100em;
+    left:87.2em;
     padding-top: 52em;
+}
+.click_boxes{
+    position: relative;
+    color: white;
+}
+.lut{
+    position: absolute;
+    bottom: 7.65em;
+    left: 2.9em;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.ldt{
+    position: absolute;
+    bottom: 2.3em;
+    left: 3.1em;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.rt{
+    position: absolute;
+    bottom: 5.2em;
+    right: -31em;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }

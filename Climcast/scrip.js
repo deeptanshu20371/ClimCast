@@ -38,14 +38,3 @@ window.addEventListener("scroll",function(event){
         this.document.getElementById("nav").style.opacity=1;
     }
 } );
-
-$(window).on("load resize scroll", function() {
-    $(".fglobe").each(function() {
-      var windowTop = $(window).scrollTop();
-      var elementTop = $(this).offset().top;
-      var leftPosition = windowTop - elementTop;
-        $(this)
-          .find(".fglobe")
-          .css({ left: leftPosition });
-    });
-  });

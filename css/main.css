@@ -18,7 +18,7 @@ body {
     height: 4em;
     background-color: #278E7B;
     padding:0;
-    opacity: 0;
+    opacity: 1;
     position:fixed ;
     z-index: 1;
 }

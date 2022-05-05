@@ -148,3 +148,14 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
+.search{
+    width: 40%;
+    height: 120px;
+}
+.btns{
+    position:relative;
+    left:15em;
+    bottom:2.4em;
+    width: 50%;
+    height: 4em;
+}

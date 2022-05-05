@@ -42,66 +42,6 @@
           </div>
         </div>
       </nav>
-      <img src="background.png" alt="background" class="background">
-      <img src="text.png" alt="text" class="text">
-      <img src="fglobe.png" alt="fglobe" class="fglobe">
-      <div id="main" class="chart" style="width: 1300px;height:600px;"></div>
-      <script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('main'));
-        var option = {
-          series: [
-          
-      {
-        name: 'C02 emissions',
-        type: 'bar',
-        data: [1.0, 4.0, 8.0, 26.0, 26.0, 75.0, 140.0]
-      },
-      {
-        name: 'Per Capita Emissions',
-        type: 'bar',
-        data: [1.5, 4.5, 10.0, 28.0, 28.5, 70.0, 160.0]
-      },
-      {
-        name: 'World Share',
-        type: 'line',
-        yAxisIndex: 1,
-        data: [1.5, 1.7, 2.5, 4.0, 6.0, 10.5, 12.5,14.0 ]
-      },
-    ],
-    legend: {
-      data: ['C02 emissions', 'Per Capita Emissions', 'World Share']
-    },
-    xAxis: [
-      {
-        type: 'category',
-        data: ['1960', '1970', '1980', '1990', '2000', '2010', '2020']
-      }
-    ],
-    yAxis: [
-      {
-        type: 'value',
-        name: 'CO2 Emissions',
-        min: 0,
-        max: 250,
-        interval: 50,
-        axisLabel: {
-          formatter: '{value} MilTons'
-        }
-      },
-      {
-        type: 'value',
-        name: 'World Share',
-        min: 0,
-        max: 10,
-        interval: 5,
-        axisLabel: {
-          formatter: '{value}%'
-        }
-      }
-    ],
-    
-  };
-        myChart.setOption(option);
-      </script>
+      <img src="bg.PNG" alt="bg" class="bg">
 </body>
 </html>
